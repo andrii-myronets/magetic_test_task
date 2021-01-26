@@ -8,7 +8,7 @@ export const Cards = () => {
 
     return (
         <main className="page-wrapper">
-            {cards.map((item, index) =>
+            {cards.length > 0 && cards.map((item, index) =>
                 <section key={index}>
                     <div className="card-block ">
                         <div className="card__image">
